@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 const Profile = () => {
     const { user, isAuthenticated } = useAuth0()
     const handleRedirect = () => {
-        window.location.assign('http://localhost:5174/')
+        window.location.assign('http://saospina.github.io/auth0-app2')
     }
     return (
         isAuthenticated && (
