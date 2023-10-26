@@ -10,7 +10,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       domain="dev-eue8jfz2cney8cap.us.auth0.com"
       clientId="u4vu0E3919iZBPbGlNGix3GW3khue6Ii"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173/"
+        // redirect_uri: "http://localhost:5173/"
+        redirect_uri: "https://saospina.github.io/auth0-app1/"
       }}
     >
       <App />
