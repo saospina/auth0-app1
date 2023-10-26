@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 const Profile = () => {
     const { user, isAuthenticated } = useAuth0()
     const handleRedirect = () => {
-        window.location.assign('https://saospina.github.io/auth0-app2/')
+        window.location.assign('https://653a71a515621609b62b0713--singular-semolina-2e93c7.netlify.app/')
     }
     return (
         isAuthenticated && (
